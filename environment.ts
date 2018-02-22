@@ -5,6 +5,6 @@
 
 export const environment = {
   production: false,
-  lbBaseURL: 'http://scicat02.esss.lu.se:32094',
+  lbBaseURL: 'http://scicat02.esss.lu.se:32222',
   externalAuthEndpoint: '/auth/msad',
 };
