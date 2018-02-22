@@ -3,6 +3,7 @@ DMSC_PATH='../dmsc_scicat_localization'
 \cp ${DMSC_PATH}/start.sh .
 \cp ${DMSC_PATH}/rabbit.yaml .   
 \cp ${DMSC_PATH}/mongo.yaml .   
+\cp ${DMSC_PATH}/service-nodeport.yaml .   
 \cp ${DMSC_PATH}/catamel/deployment.yaml  services/catamel/dacat-api-server/templates/deployment.yaml
 \cp ${DMSC_PATH}/catamel/ingress.yaml     services/catamel/dacat-api-server/templates/ingress.yaml
 \cp ${DMSC_PATH}/catamel/values.yaml    services/catamel/dacat-api-server/values.yaml
