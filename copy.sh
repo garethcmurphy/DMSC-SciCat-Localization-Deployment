@@ -1,0 +1,10 @@
+\cp    ../dmsc_scicat_localization/run.sh .
+\cp    ../dmsc_scicat_localization/start.sh .
+\cp    ../dmsc_scicat_localization/rabbit.yaml .   
+\cp    ../dmsc_scicat_localization/mongo.yaml .   
+\cp ../dmsc_scicat_localization/catamel/deployment.yaml  services/catamel/dacat-api-server/templates/deployment.yaml
+\cp ../dmsc_scicat_localization/catamel/ingress.yaml     services/catamel/dacat-api-server/templates/ingress.yaml
+\cp ../dmsc_scicat_localization/catamel/values.yaml    services/catamel/dacat-api-server/values.yaml
+\cp ../dmsc_scicat_localization/catanie/NOTES.txt    services/catanie/dacat-gui/templates/NOTES.txt
+\cp ../dmsc_scicat_localization/catanie/ingress.yaml   services/catanie/dacat-gui/templates/ingress.yaml
+\cp ../dmsc_scicat_localization/catanie/values.yaml    services/catanie/dacat-gui/values.yaml
